@@ -70,7 +70,7 @@ int main()
         filteredSignal.size();
 
     std::cout << "=====================================\n";
-    std::cout << "      DSP Spectrum Analyzer v1.0\n";
+    std::cout << "      DSP Spectrum Analyzer v0.3\n";
     std::cout << "=====================================\n\n";
 
     std::cout << std::fixed << std::setprecision(2);
