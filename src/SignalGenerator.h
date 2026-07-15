@@ -30,6 +30,9 @@ public:
     std::vector<double> addNoise(
         const std::vector<double>& signal,
         double noiseAmplitude);
+
+    int findPeak(
+        const std::vector<double>& spectrum);
 };
 
 #endif // SIGNAL_GENERATOR_H

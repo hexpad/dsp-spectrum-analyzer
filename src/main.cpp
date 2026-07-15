@@ -25,6 +25,9 @@ int main()
     std::vector<double> spectrum =
         generator.computeDFT(signal);
 
+    int peakIndex = generator.findPeak(spectrum);
+
+    std::cout << "Peak Index : " << peakIndex << "\n";
 
     // File
     std::ofstream signalFile("signal.csv");

@@ -132,3 +132,19 @@ std::vector<double> SignalGenerator::addNoise(
 
     return noisySignal;
 }
+
+int SignalGenerator::findPeak(
+    const std::vector<double>& spectrum)
+{
+    int peakIndex = 1;
+
+    for(int i = 1; i < spectrum.size(); i++)
+    {
+        if(spectrum[i] > spectrum[peakIndex])
+        {
+            peakIndex = i;
+        }
+    }
+
+    return peakIndex;
+}
