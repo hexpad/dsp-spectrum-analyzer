@@ -51,3 +51,6 @@ Spectrum of the noisy signal, you can clearly see the two peaks at 3 Hz and 7 Hz
 Spectrum of the filtered signal:
 
 ![Filtered spectrum](images/filtered_spectrum.png)
+
+## Source Code
+https://github.com/hexpad/dsp-spectrum-analyzer/tree/main/src
